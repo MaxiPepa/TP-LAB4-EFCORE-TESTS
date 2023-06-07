@@ -1,15 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "fJ1Gjm5R1ONzE7uVTCDlK6f3c+8MjAwnxGWDjEm+HpvrXRV3Sy37aRsaQ2j7aPFs5DevAhuBQh1hnCZQMtppSA==",
+  "dgSpecHash": "Q01U/N06oydEsBhbkiRW9gRssf+3KNPwUGvQ1WTpmlp7hgl/G0xvtX5N73iVJaZ5k/wLxh/FkX1YMgCT4nUoJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Maxi\\Documents\\Projects\\TP-LAB4-EFCORE-TESTS\\TP-LAB4-EFCORE-TESTS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Maxi\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.codecoverage\\17.6.2\\microsoft.codecoverage.17.6.2.nupkg.sha512",
     "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.2\\microsoft.net.test.sdk.17.6.2.nupkg.sha512",
     "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.2\\microsoft.testplatform.objectmodel.17.6.2.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.testplatform.testhost\\17.6.2\\microsoft.testplatform.testhost.17.6.2.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\mstest.testadapter\\3.0.4\\mstest.testadapter.3.0.4.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\mstest.testframework\\3.0.4\\mstest.testframework.3.0.4.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
     "C:\\Users\\Maxi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Maxi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Maxi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Maxi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Maxi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\Maxi\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,4 +1,5 @@
 ﻿using TP_LAB4_EFCORE_TESTS.Data;
+using TP_LAB4_EFCORE_TESTS.Data.Entities.Repository;
 using TP_LAB4_EFCORE_TESTS.Models;
 
 namespace TP_LAB4_EFCORE_TESTS.Services
@@ -6,19 +7,18 @@ namespace TP_LAB4_EFCORE_TESTS.Services
     public class MovieService : IMovieService
     {
         #region Constructor
-        private readonly FakeDB _fakeDB;
+        private readonly IMovieRepository _movieRepository;
 
-        public MovieService(FakeDB fakeDB) 
+        public MovieService(IMovieRepository movieRepository) 
         {
-            _fakeDB = fakeDB;
+            _movieRepository = movieRepository;
         }
         #endregion
 
         #region Movies
         public GetMoviesResponse GetMovies()
         {
-            var movies = _fakeDB.Movies
-                .ToList();
+            var movies = _movieRepository.GetAll();
 
             return new GetMoviesResponse
             {
@@ -35,8 +35,7 @@ namespace TP_LAB4_EFCORE_TESTS.Services
 
         public GetMovieDataResponse GetMovieData(GetMovieDataRequest rq)
         {
-            var movie = _fakeDB.Movies
-                .FirstOrDefault(x => x.MovieId == rq.MovieId);
+            var movie = _movieRepository.GetOne(rq.MovieId);
 
             if (movie == null)
             {
@@ -69,8 +68,7 @@ namespace TP_LAB4_EFCORE_TESTS.Services
 
         public GetMovieActorsResponse GetMovieActors(GetMovieActorsRequest rq)
         {
-            var movie = _fakeDB.Movies
-                .FirstOrDefault(x => x.MovieId == rq.MovieId);
+            var movie = _movieRepository.GetOne(rq.MovieId);
 
             if (movie == null)
             {
